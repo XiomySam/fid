@@ -1,0 +1,62 @@
+body {
+  background-color: #faf2e4;
+  margin: 0 10%;
+  font-family: sans-serif;
+  background: #faf2e4 url(images/transblackgoose.png) no-repeat center 100px fixed;
+}
+
+a:link {
+  color: #ff8c00;
+}
+
+a:visited {
+  color: #8B4513;
+}
+
+a:focus, a:hover {
+  color: #DC143C;
+}
+
+a:active {
+  color: #FF7F50;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-weight: normal;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+  text-shadow: .05em .05em .1em lightslategray;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+}
+
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
